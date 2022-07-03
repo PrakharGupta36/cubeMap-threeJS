@@ -8,11 +8,11 @@ const scene = new THREE.Scene();
 // textures
 
 scene.background = new THREE.CubeTextureLoader()
-  .setPath("./textures/environmentMaps/2/")
+  .setPath("./textures/")
   .load(["px.jpg", "nx.jpg", "py.jpg", "ny.jpg", "pz.jpg", "nz.jpg"]);
 
 const CubeTextureLoader = new THREE.CubeTextureLoader()
-  .setPath("./textures/environmentMaps/2/")
+  .setPath("./textures/")
   .load(["px.jpg", "nx.jpg", "py.jpg", "ny.jpg", "pz.jpg", "nz.jpg"]);
 
 // mesh

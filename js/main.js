@@ -8,11 +8,11 @@ const scene = new THREE.Scene();
 // textures
 
 scene.background = new THREE.CubeTextureLoader()
-  .setPath("./textures/")
+  .setPath("./public/textures/")
   .load(["px.jpg", "nx.jpg", "py.jpg", "ny.jpg", "pz.jpg", "nz.jpg"]);
 
 const CubeTextureLoader = new THREE.CubeTextureLoader()
-  .setPath("./textures/")
+  .setPath("./public/textures/")
   .load(["px.jpg", "nx.jpg", "py.jpg", "ny.jpg", "pz.jpg", "nz.jpg"]);
 
 // mesh
@@ -61,7 +61,6 @@ pointLight.position.x = 1;
 pointLight.position.y = 1;
 pointLight.position.z = 1;
 scene.add(pointLight);
-
 
 // animation
 
